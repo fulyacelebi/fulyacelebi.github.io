@@ -2,10 +2,11 @@ html,
 body {
   margin: 0;
   color: #888;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
 }
 
 .center-container {
-  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -47,24 +48,16 @@ h2 {
   background-color: #e2b091;
 }
 
-#flexbox {
+.flexbox {
   display: flex;
-  flex-direction: row;
-  font-family: "Raleway", sans-serif;
-  font-size: 2em;
-  text-align: center;
   height: 100%;
   width: 100%;
 }
 
-.left-flex-item {
-  flex: 1;
+.flexbox-flex-font {
+  font-size: 2em;
 }
 
-.middle-flex-item {
-  flex: 1;
-}
-
-.right-flex-item {
+.flex-item {
   flex: 1;
 }
