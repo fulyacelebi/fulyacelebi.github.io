@@ -1,7 +1,6 @@
 html,
 body {
   margin: 0;
-  color: #888;
   font-family: "Raleway", sans-serif;
   text-align: center;
 }
@@ -12,52 +11,55 @@ body {
   justify-content: center;
 }
 
-h1,
-h2 {
-  font-weight: 200;
+#section1 {
+  height: calc(100vh - 46px);
+  background: #024249;
 }
-h1 {
+
+#section1 h1 {
   font-family: "Raleway", sans-serif;
   color: #aaa;
   font-size: 3.5em;
+  font-weight: 200;
 }
-h2 {
+#section1 h2 {
   font-family: "Raleway", sans-serif;
   color: #888;
   font-size: 2em;
 }
 
-#section1 {
-  height: 100vh;
-  background: #222;
-}
-
 #section2 {
-  height: 100vh;
+  background-color: #16817a;
 }
 
-.left {
-  background-color: #f7dfd4;
+#aboutme {
+  height: calc(100vh - 46px);
+  background-color: #fa744f;
 }
 
-.middle {
-  background-color: #eabcac;
+#aboutme h1,
+h2 {
+  color: #024249;
+  font-family: "Raleway", sans-serif;
+  font-size: 3.5em;
+  font-weight: 200;
 }
 
-.right {
-  background-color: #e2b091;
+#contact {
+  background-color: #f79071;
 }
 
-.flexbox {
-  display: flex;
-  height: 100%;
-  width: 100%;
+#linkedin-logo,
+#instagram-logo {
+  padding: 15px;
 }
 
-.flexbox-flex-font {
-  font-size: 2em;
+a:visited {
+  color: #888;
 }
-
-.flex-item {
-  flex: 1;
+a:hover {
+  color: #888;
+}
+a:active {
+  color: #888;
 }
