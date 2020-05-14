@@ -4,10 +4,10 @@
   z-index: 1000;
   position: fixed;
   top: 0;
+  display: flex;
 }
 
 .topnav a {
-  float: left;
   color: #aaa;
   text-align: center;
   padding: 14px 16px;
