@@ -45,6 +45,14 @@ h2 {
   font-weight: 200;
 }
 
+.menu {
+  display: flex;
+}
+
+section {
+  flex-flow: column;
+}
+
 #contact {
   background-color: #f79071;
 }
