@@ -2,6 +2,8 @@
   overflow: hidden;
   background: #222;
   z-index: 1000;
+  position: fixed;
+  top: 0;
 }
 
 .topnav a {
@@ -20,10 +22,4 @@
 .topnav a.active {
   background-color: #16817a;
   color: white;
-}
-
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
 }
