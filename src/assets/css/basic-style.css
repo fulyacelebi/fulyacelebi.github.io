@@ -12,7 +12,7 @@ body {
 }
 
 #section1 {
-  height: calc(100vh - 46px);
+  height: 100vh;
   background: #024249;
   flex-flow: column;
 }
@@ -71,4 +71,15 @@ a:hover {
 
 a:active {
   color: #888;
+}
+
+@media (max-width: 620px) {
+  /* For mobile phones: */
+  #section1,
+  #section2,
+  #aboutme,
+  #contact {
+    width: 100%;
+    font-size: 60%;
+  }
 }
