@@ -61,6 +61,10 @@ h2 {
   padding: 15px;
 }
 
+a {
+  color: #888;
+}
+
 a:visited {
   color: #888;
 }
