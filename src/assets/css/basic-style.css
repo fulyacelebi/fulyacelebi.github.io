@@ -2,7 +2,7 @@ html,
 body {
   margin: 0;
   font-family: "Raleway", sans-serif;
-  text-align: center;
+  color: #024249;
 }
 
 .center-container {
@@ -11,45 +11,34 @@ body {
   justify-content: center;
 }
 
+.menu {
+  display: flex;
+}
+
 #section1 {
   height: 100vh;
-  background: #024249;
-  flex-flow: column;
+  background: #f4f3f1;
+  flex-direction: column;
 }
 
 #section1 h1 {
-  font-family: "Raleway", sans-serif;
-  color: #aaa;
   font-size: 3.5em;
-  font-weight: 200;
+  font-weight: 300;
 }
 #section1 h2 {
-  font-family: "Raleway", sans-serif;
-  color: #888;
   font-size: 2em;
-}
-
-#section2 {
-  background-color: #16817a;
-  flex-flow: column;
 }
 
 #aboutme {
   height: calc(100vh - 46px);
-  background-color: #fa744f;
+  background-color: #f79071;
   flex-flow: column;
 }
 
 #aboutme h1,
 h2 {
-  color: #024249;
-  font-family: "Raleway", sans-serif;
   font-size: 3.5em;
   font-weight: 200;
-}
-
-.menu {
-  display: flex;
 }
 
 #contact {
@@ -84,6 +73,5 @@ a:active {
   #aboutme,
   #contact {
     width: 100%;
-    font-size: 60%;
   }
 }
