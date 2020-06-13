@@ -7,11 +7,9 @@
     <link rel="stylesheet" href="/src/assets/css/normalize.css" />
     <link rel="stylesheet" href="/src/assets/css/basic-style.css" />
     <link rel="stylesheet" href="/src/assets/css/header.css" />
-    <link rel="stylesheet" href="/src/assets/css/timeline.css" />
     <link
-      href="https://fonts.googleapis.com/css?family=Raleway:200,100,400"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap"
       rel="stylesheet"
-      type="text/css"
     />
     <link
       rel="stylesheet"
@@ -21,14 +19,13 @@
   <body>
     <header class="header-container">
       <a href="#section1"><div class="header-item">Home</div></a>
-      <a
-        href="https://drive.google.com/file/d/1kw9T2o0NIcZQdIWrdEObr6mWdbgxUCvu/view?usp=sharing"
+      <a href="./src/assets/files/FulyaCelebiResume.pdf" target="_blank"
         ><div class="header-item">Resume</div></a
       >
-      <a href="#contact"><div class="header-item">Who I Am</div></a>
+      <!-- <a href="#contact"><div class="header-item">Who I Am</div></a> -->
     </header>
     <main id="content" role="main">
-      <section id="section1" class="center-container">
+      <section id="sliding-text" class="center-container">
         <h1>Hi! I'm Fulya.</h1>
         <h2
           class="values txt-rotate"
@@ -36,119 +33,52 @@
           data-rotate='[ "Computer Engineer.", "Software Developer.", "Lover of Learning." ]'
         ></h2>
       </section>
-      <section id="section2" class="center-container">
-        <div class="timeline">
-          <div class="left-timeline">
-            <div class="position-date-container">
-              <span
-                ><i class="fa fa-briefcase" aria-hidden="true"></i> Research
-                Assistant</span
-              >
-              <span
-                ><i class="fa fa-calendar-o" aria-hidden="true"></i> April 2018
-                - August 2019</span
-              >
-            </div>
-            <div class="content-resume">
-              <div>
-                Istanbul Technical University, Computer Engineering
-              </div>
-              <div>
-                Researching and developing my master thesis, also assisting
-                courses.
-              </div>
-            </div>
-            <div class="keyword-container">
-              <div>Machine Learning</div>
-              <div>Deep Learning</div>
-              <div>Python</div>
-              <div>Google Colab</div>
-            </div>
-          </div>
-          <div class="right-timeline">
-            <div class="position-date-container">
-              <span>
-                <i class="fa fa-graduation-cap" aria-hidden="true"></i>
-                Master of Science
-              </span>
-              <span>
-                <i class="fa fa-calendar-o" aria-hidden="true"></i>
-                September 2016 - July 2019
-              </span>
-            </div>
-            <div class="content-resume">
-              <div>
-                Istanbul Technical University, Computer Engineering
-              </div>
-              <div>
-                Researching on Recommendation Systems using Deep Learning.
-              </div>
-            </div>
-            <div class="keyword-container">
-              <div>Machine Learning</div>
-              <div>Deep Learning</div>
-              <div>Python</div>
-              <div>Google Colab</div>
-            </div>
-          </div>
-          <div class="left-timeline">
-            <div class="position-date-container">
-              <span>
-                <i class="fa fa-briefcase" aria-hidden="true"></i>
-                Software Engineer
-              </span>
-              <span>
-                <i class="fa fa-calendar-o" aria-hidden="true"></i>
-                July 2013 - April 2018
-              </span>
-            </div>
-
-            <div class="content-resume">
-              <div>
-                Garanti BBVA Technology
-              </div>
-              <div>
-                Being Software Developer within mobile banking and web
-                development teams with experiences Java, Spring Framework, HTML,
-                CSS, JavaScript.
-              </div>
-            </div>
-            <div class="keyword-container">
-              <div>Java</div>
-              <div>Spring Framework</div>
-              <div>HTML</div>
-              <div>CSS</div>
-              <div>JavaScript</div>
-            </div>
-          </div>
-          <div class="right-timeline">
-            <div class="position-date-container">
-              <span>
-                <i class="fa fa-graduation-cap" aria-hidden="true"></i>
-                Bachelor's Degree
-              </span>
-              <span>
-                <i class="fa fa-calendar-o" aria-hidden="true"></i>
-                September 2009 - July 2013
-              </span>
-            </div>
-            <div class="content-resume">
-              <div>
-                Ege University, Computer Engineering
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
       <section id="aboutme" class="center-container">
-        <h1>I like</h1>
-        <h1>
-          <span
-            class="txt-rotate"
-            data-period="1000"
-            data-rotate='[ "travelling.","taking a photograph.", "learning.", "cooking.","reading.", "listening.", "plants." ]'
-          ></span>
-        </h1>
+        <div class="what-i-did">
+          <h3>May 2018 - August 2019 Research And Teaching Assistant</h3>
+          <h3>Computer Engineering, Istanbul Technical University</h3>
+
+          I assisted four courses: Machine Learning, Learning From Data,
+          Computer Operating Systems, Database Systems. My research areas were
+          Machine Learning especially Deep Learning.
+        </div>
+        <div class="what-i-did">
+          <h3>September 2016 - July 2019 Master of Science</h3>
+          <h3>Computer Engineering, Istanbul Technical University</h3>
+
+          I graduated from Istanbul Technical University, Computer Engineering,
+          Master of Science. My master thesis was about Recommendation System
+          using Deep Learning.
+        </div>
+        <div class="what-i-did">
+          <h3>July 2013 - April 2018 Software Engineer</h3>
+          <h3>Garanti BBVA Technology</h3>
+
+          I was responsible backend and frontend development of web forms on
+          garantibbva.com.tr. Also I developed some features for mobile
+          applications in the Mobile Banking Applications Team. I experienced
+          Android and iOS Development besides the backend development with Java,
+          Spring Framework and Jenkins CI. Considerable part of my experience
+          was the development of search skills on the website and integration of
+          Google Search Appliance (GSA) into garantibbva.com.tr.
+        </div>
+
+        <div class="what-i-did">
+          <h3>September 2009- July 2013 Bachelor's Degree</h3>
+          <h3>Computer Engineering, Ege University</h3>
+        </div>
+
+        <!-- <div class="photo">
+            <img src="./src/assets/images/profile.jpg" />
+          </div> -->
+        <!-- <h1>I like</h1>
+          <h1>
+            <span
+              class="txt-rotate"
+              data-period="1000"
+              data-rotate='[ "travelling.","taking a photograph.", "learning.", "cooking.","reading.", "listening.", "plants." ]'
+            ></span>
+          </h1> -->
       </section>
       <section id="contact" class="center-container">
         <a href="https://www.linkedin.com/in/fulyacelebi/"

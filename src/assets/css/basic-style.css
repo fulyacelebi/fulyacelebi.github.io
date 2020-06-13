@@ -1,8 +1,11 @@
 html,
 body {
   margin: 0;
-  font-family: "Raleway", sans-serif;
-  color: #024249;
+  font-family: "Montserrat", sans-serif;
+  color: black;
+}
+div {
+  box-sizing: border-box;
 }
 
 .center-container {
@@ -11,38 +14,45 @@ body {
   justify-content: center;
 }
 
-.menu {
-  display: flex;
-}
-
-#section1 {
+#sliding-text {
   height: 100vh;
-  background: #f4f3f1;
   flex-direction: column;
 }
 
-#section1 h1 {
-  font-size: 3.5em;
-  font-weight: 300;
+#sliding-text h1 {
+  font-size: 3em;
+  font-weight: 400;
 }
-#section1 h2 {
+#sliding-text h2 {
   font-size: 2em;
+  font-weight: 300;
 }
 
 #aboutme {
-  height: calc(100vh - 46px);
-  background-color: #f79071;
-  flex-flow: column;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }
 
-#aboutme h1,
-h2 {
-  font-size: 3.5em;
-  font-weight: 200;
+#aboutme div {
+  padding: 1em;
+  width: 35%;
+  font-weight: 300;
+}
+#aboutme h3 {
+  font-weight: 400;
+}
+
+#what-i-did {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 #contact {
-  background-color: #f79071;
+  background-color: #024249;
 }
 
 #linkedin-logo,
@@ -51,27 +61,34 @@ h2 {
 }
 
 a {
-  color: #888;
+  color: #f4f3f1;
 }
 
 a:visited {
-  color: #888;
+  color: #f4f3f1;
 }
 
 a:hover {
-  color: #888;
+  color: #f4f3f1;
 }
 
 a:active {
-  color: #888;
+  color: #f4f3f1;
 }
 
 @media (max-width: 620px) {
   /* For mobile phones: */
-  #section1,
-  #section2,
-  #aboutme,
+  #sliding-text,
   #contact {
     width: 100%;
+  }
+  #aboutme div {
+    width: 90%;
+  }
+  #sliding-text h1 {
+    font-size: 3em;
+  }
+  #sliding-text h2 {
+    font-size: 1.5em;
   }
 }
