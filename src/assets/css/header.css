@@ -6,14 +6,13 @@
   width: 100%;
 }
 
-.header-container a {
-  text-decoration: none;
-}
-
 .header-item {
-  font-weight: 300;
   color: #f4f3f1;
   padding: 14px 16px;
+}
+
+.header-container a {
+  text-decoration: none;
 }
 
 .header-item:hover {

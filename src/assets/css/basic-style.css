@@ -1,7 +1,7 @@
 html,
 body {
   margin: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: black;
 }
 div {
@@ -20,12 +20,12 @@ div {
 }
 
 #sliding-text h1 {
-  font-size: 3em;
+  font-size: 3.5em;
   font-weight: 400;
 }
 #sliding-text h2 {
   font-size: 2em;
-  font-weight: 300;
+  font-weight: 200;
 }
 
 #aboutme {
@@ -35,13 +35,21 @@ div {
   align-items: center;
 }
 
+#aboutme li {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 #aboutme div {
   padding: 1em;
   width: 35%;
-  font-weight: 300;
 }
 #aboutme h3 {
   font-weight: 400;
+}
+
+#aboutme li {
+  font-weight: 300;
 }
 
 #what-i-did {
@@ -76,8 +84,19 @@ a:active {
   color: #f4f3f1;
 }
 
+hr.top-horizontal-line {
+  border: 1px solid #024249;
+  width: 35%;
+  margin-bottom: 2em;
+}
+hr.bottom-horizontal-line {
+  border: 1px solid #024249;
+  width: 35%;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
 @media (max-width: 620px) {
-  /* For mobile phones: */
   #sliding-text,
   #contact {
     width: 100%;
@@ -90,5 +109,10 @@ a:active {
   }
   #sliding-text h2 {
     font-size: 1.5em;
+  }
+
+  hr.top-horizontal-line,
+  hr.bottom-horizontal-line {
+    width: 90%;
   }
 }
